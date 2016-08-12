@@ -22,7 +22,7 @@ function ProgressBar() {
 		color : 'Black',
 		message: 'Loading 0 of 10',
 		font : {fontSize:14, fontWeight:'bold'},
-		style:Titanium.UI.iPhone.ProgressBarStyle.PLAIN,
+		style:Titanium.UI.iOS.ProgressBarStyle.PLAIN,
 	});
 	
 	barView.add(Ti.UI.createLabel({
